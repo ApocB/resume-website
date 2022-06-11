@@ -30,12 +30,21 @@
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+            var $nav = $(".navbar-fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+          });
+      });
+    </script>
+
   </head>
   <body>
 
     <!-- Navbar -->
     <!-- CHANGE: Change "background-color" to fit your video. By default it is set to transparent  -->
-    <nav class="navbar navbar-expand navbar-dark fixed-top" style="background-color: #00000000;">
+    <nav class="navbar navbar-expand navbar-dark fixed-top navbar-fixed-top" style="background-color: #00000000;">
       <div class="container-fluid">
 
         <!-- CHANGE: change to your own logo -->
