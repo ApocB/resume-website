@@ -200,7 +200,7 @@ path {
   height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-image: url("https://images.unsplash.com/photo-1643479228299-071f0d06c707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-image: url("../assets/images/Portfolio_Pic6.png");
   background-position: bottom center;
   background-size: cover;
 }
@@ -233,5 +233,5 @@ button {
 
 /* CHANGE: change scroll bar color */
 *::-webkit-scrollbar-thumb {
-  background-color: #070430;
+  background-color: #8a0002;
 }
